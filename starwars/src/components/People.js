@@ -32,9 +32,15 @@ return (
     <StyledH3 >{props.name} </StyledH3>
     
     <StyledH2>About Me</StyledH2>
-        <StyleP>Eye Color: {props.eye}</StyleP>
-        <StyleP>Birth Year: {props.birthday}</StyleP>
-        <StyleP>Height: {props.height}</StyleP>
+        <StyleP>Eye Color: {props.eye_color}</StyleP>
+        <StyleP>Birth Year: {props.height}</StyleP>
+        <StyleP>Height: {props.mass}</StyleP>
+        <StyleP>Gender: {props.gender}</StyleP>
+        <StyleP>Hair Color: {props.hair_color}</StyleP>
+        <StyleP>Mass: {props.mass}</StyleP>
+
+
+
 
 </Container>
 
